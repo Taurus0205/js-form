@@ -1,0 +1,47 @@
+.container {
+}
+.app-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px 20px;
+  box-shadow: 0 0 5px 2px rgb(175, 172, 172);
+  text-align: center;
+}
+
+.heading {
+}
+.form {
+}
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100px;
+}
+.form__input {
+  width: 100%;
+  max-width: 100px;
+  padding: 5px;
+}
+
+.select {
+  padding: 5px;
+}
+.convert-info {
+}
+.button {
+  font-weight: bold;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(90, 133, 224);
+}

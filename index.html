@@ -7,5 +7,38 @@
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="app-wrapper">
+        <h1 class="heading">MoneyGram</h1>
+        <form class="form">
+          <div class="form-wrapper">
+            <label class="label"
+              >From UZS
+              <input
+                class="form__input"
+                type="number"
+                name="balance"
+                placeholder="... so'm"
+              />
+            </label>
+
+            <label class="label"
+              >To
+              <select class="select" name="currency" id="currency">
+                <option value="10630.68">USD</option>
+                <option value="142.96">RUB</option>
+                <option value="12624.26">EURO</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="convert-info">0</div>
+
+          <button class="button" type="submit">Convert</button>
+        </form>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>

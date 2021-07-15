@@ -30,6 +30,11 @@
   width: 100%;
   max-width: 100px;
   padding: 5px;
+  outline: none;
+}
+
+.form__input-alert {
+  border: 2px solid red;
 }
 
 .select {
